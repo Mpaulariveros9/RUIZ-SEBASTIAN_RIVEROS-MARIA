@@ -6,4 +6,4 @@ CREATE TABLE ODONTOLOGOS(ID INT AUTO_INCREMENT PRIMARY KEY, MATRICULA INT NOT NU
 
 -- Odontólogos creados para test de la base de datos --
 
-INSERT INTO ODONTOLOGOS(MATRICULA, NOMBRE, APELLIDO) VALUES (987654, 'Stravros', 'Max'), (179104, 'Diego', 'Sabani'), (202305, 'Paola', 'Sevilla');
+INSERT INTO ODONTOLOGOS(MATRICULA, NOMBRE, APELLIDO) VALUES (123456, 'Sebas', 'Ruiz'), (654321, 'Maria', 'Riveros'), (098765, 'Marcela', 'Daza');

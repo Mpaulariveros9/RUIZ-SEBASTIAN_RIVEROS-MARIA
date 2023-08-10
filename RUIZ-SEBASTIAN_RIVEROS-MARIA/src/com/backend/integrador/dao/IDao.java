@@ -1,4 +1,6 @@
-package com.backend.integrador.dao.impl;
+package com.backend.integrador.dao;
+
+import com.backend.integrador.entity.Odontologo;
 
 import java.util.List;
 

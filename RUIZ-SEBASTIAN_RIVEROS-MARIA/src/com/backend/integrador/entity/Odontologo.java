@@ -56,4 +56,3 @@ public class Odontologo {
         return "\n ID "+ id + " --- Odontólogo " + apellido + "," + nombre + ", Matrícula: " + matricula + ".";
     }
 }
-

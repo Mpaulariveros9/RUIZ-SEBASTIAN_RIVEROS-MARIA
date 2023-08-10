@@ -3,12 +3,12 @@ package com.backend.integrador;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-public class Application {
+public class aplicacion {
     public static void main(String[] args) {
         Connection connection = null;
         try {
             Class.forName("org.h2.Driver");
-            connection = DriverManager.getConnection("jdbc:h2:~/test1;INIT=RUNSCRIPT FROM 'create.sql'", "sa", "sa");
+            connection = DriverManager.getConnection("jdbc:h2:~/test'", "sa", "sa");
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
