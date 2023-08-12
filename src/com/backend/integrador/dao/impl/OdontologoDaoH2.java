@@ -55,7 +55,7 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
                 exception.printStackTrace();
             }
         }
-
+        //recuerden que es importante que retornemos un objeto distinto, y no modificar el que nos llega por parametro
         return odontologo;
     }
 

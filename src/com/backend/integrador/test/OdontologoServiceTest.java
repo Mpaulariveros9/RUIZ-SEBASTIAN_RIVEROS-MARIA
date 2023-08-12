@@ -23,6 +23,7 @@ class OdontologoServiceTest {
 
         assertNotNull(odontologoResult);
         assertEquals(216652, odontologoResult.getMatricula());
+        //el test no prueba que se haya agregado el registro a la bdd
     }
 
 
